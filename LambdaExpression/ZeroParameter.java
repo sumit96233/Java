@@ -17,7 +17,7 @@ interface Sparameter
 interface Mparamter
 {
     void fun2(int a,int b);
-    void fun3(int c);
+    // void fun3(int c);
 }
 public class ZeroParameter 
 {
@@ -37,7 +37,8 @@ public class ZeroParameter
             System.out.println(a*b);
         };
         ob3.fun2(10, 20);
-        ob3.fun3(4);
+        
+        
     }
     
 }

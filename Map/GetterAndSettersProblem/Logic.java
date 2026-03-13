@@ -15,7 +15,7 @@ public class Logic {
 		
 	}
 
-    // to display object details
+    // to display object details using list
     public void display( ArrayList<ArrayList<Student>> metaResult )
     {
         System.out.println("########    Student Details   ########");

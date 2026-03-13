@@ -25,13 +25,10 @@ public class Test {
             System.out.print("Enter Your Age: ");
             int age = sc.nextInt();
             System.out.println();
-            result = ob1.m1(age, name, clgname);
+            result = ob1.m1(age, clgname, name);
             metaResult.add(result); 
         }
-    
-         ob1.display(metaResult);
-
-        
-
+         metaResult.forEach(x->{x.forEach(y->System.out.println(y.getName()+"-----"+y.getCollge()+"-----"+y.getAge()));});
+         
     }
 }
